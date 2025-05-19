@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>C'LAB - Cookie.Lab</title>
+    <meta name="description" content="Craft Your Own Cookie!">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Nunito', sans-serif;
+            background: #ffffff;
+            color: #000000;
+        }
+        header {
+            background: #0066cc;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        header h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 2.5rem;
+            margin: 0.2rem 0;
+        }
+        nav a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        .hero img {
+            width: 120px;
+            margin-bottom: 1rem;
+        }
+        .cta a {
+            display: inline-block;
+            background: #0066cc;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 1rem;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        .cta a:hover {
+            background: #004999;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #f0f0f0;
+            color: #555555;
+            font-size: 0.9rem;
+        }
+        /* Responsive */
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            nav a {
+                margin: 0 6px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div style="display: flex; align-items: center; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+            <div style="background: white; border-radius: 60%; padding: 20px;">
+                <img src="clab logo.png" alt="Logo C'LAB Cookie Lab" style="width: 60px; height: 60px; object-fit: contain;" />
+            </div>
+            <h1 style="margin: 0;">C'LAB – Cookie.Lab</h1>
+        </div>
+        <nav aria-label="Navigasi Utama">
+            <a href="#products">Produk</a>
+            <a href="#about">Tentang</a>
+            <a href="#testimonials">Testimoni</a>
+            <a href="#order">Order</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Craft Your Own Cookie!</h2>
+        </section>
+
+        <section id="order" class="cta" style="text-align:center;">
+            <h3>COMING SOON</h3>
+            <p>Hubungi kami lewat Instagram untuk pemesanan:</p>
+            <a href="https://www.instagram.com/ku.kissh" target="_blank" rel="noopener noreferrer">@ku.kissh</a>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 C'LAB Cookie.Lab. All rights reserved.
+    </footer>
+</body>
+</html>
